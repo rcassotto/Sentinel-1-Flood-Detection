@@ -33,9 +33,9 @@ Two additional dependecies are required to run the workflow; both are open sourc
 
 ### Step 1 - Download SAR data from the Alaska SAR Facility (ASF).
 <br>
-There are two options. 
-1) Use ASF's vertex tool to identify and download Sentinel-1 GRD scenes for your region of interest. 
-2) Use ASF's API tool to automate this process using a wkt polygon. An example is provided here: https://github.com/rcassotto/Sentinel-1-GRD-to-RTC-Pre-Processing/tree/main/ASF_API. 
+There are two options to download data from ASF.<br> 
+  1) Use ASF's vertex tool to identify and download Sentinel-1 GRD scenes for your region of interest. <br>
+  2) Use ASF's API tool to automate this process using a wkt polygon. An example is provided here: https://github.com/rcassotto/Sentinel-1-GRD-to-RTC-Pre-Processing/tree/main/ASF_API. 
 <br><br>
 
 ### Step 2 - Pre-process Ground Range Detected (GRD) data to Radiometrically Terrain Corrected (RTC) Sigma0 images.
