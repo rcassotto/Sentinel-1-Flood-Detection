@@ -76,7 +76,7 @@ The thresholding script will accept any geotiff to identify permanant water bodi
 
 ## Citation
 Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward. (2016) High-resolution mapping of global surface water and its long-term changes. Nature 540, 418-422. (doi:10.1038/nature20584)
-<br>
+<br><br>
 Nobuyuki Otsu. (1979) A Threshold Selection Method from Gray-Level Histograms. IEEE Transactions on Systems, Man and Cybernetics, 9(1), 62–66.
  
 
