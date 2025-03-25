@@ -35,7 +35,7 @@ Two additional dependecies are required to run the workflow; both are open sourc
 <br>
 There are two options. 
 1) Use ASF's vertex tool to identify and download Sentinel-1 GRD scenes for your region of interest. 
-2) Use ASF's API tool to automate this process using a wkt polygon. An example is provided [here]([url](https://github.com/rcassotto/Sentinel-1-GRD-to-RTC-Pre-Processing/tree/main/ASF_API)). 
+2) Use ASF's API tool to automate this process using a wkt polygon. An example is provided [here](https://github.com/rcassotto/Sentinel-1-GRD-to-RTC-Pre-Processing/tree/main/ASF_API). 
 
 
 # Citation
