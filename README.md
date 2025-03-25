@@ -1,5 +1,5 @@
 # Sentinel-1-Flood-Detection
-Python based tools to detect flood indundation through bimodal thresholding.  The tool uses GRD-derived observations to produce binary flood maps.  It incorporates a geotiff of water extent from the Global Surface Water data set (https://global-surface-water.appspot.com/download) by Pekel et al, (2016) to delineate permanent water bodies from ephemeral flooded regions. 
+Python based tools to detect flood indundation using Otsu's (1979) bimodal thresholding method.  The tool uses GRD-derived observations to produce binary flood maps.  It incorporates a geotiff of water extent from the Global Surface Water data set (https://global-surface-water.appspot.com/download) by Pekel et al, (2016) to delineate permanent water bodies from ephemeral flooded regions. 
 
 ## Initial Setup 
 Download or clone the repository to your local machine. 
@@ -75,4 +75,8 @@ The thresholding script will accept any geotiff to identify permanant water bodi
 
 
 ## Citation
-Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward, High-resolution mapping of global surface water and its long-term changes. Nature 540, 418-422 (2016). (doi:10.1038/nature20584)
+Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward. (2016) High-resolution mapping of global surface water and its long-term changes. Nature 540, 418-422. (doi:10.1038/nature20584)
+<br>
+Nobuyuki Otsu. (1979) A Threshold Selection Method from Gray-Level Histograms. IEEE Transactions on Systems, Man and Cybernetics, 9(1), 62–66.
+ 
+
