@@ -36,6 +36,7 @@ Two additional dependecies are required to run the workflow; both are open sourc
 There are two options. 
 1) Use ASF's vertex tool to identify and download Sentinel-1 GRD scenes for your region of interest. 
 2) Use ASF's API tool to automate this process using a wkt polygon. An example is provided here: https://github.com/rcassotto/Sentinel-1-GRD-to-RTC-Pre-Processing/tree/main/ASF_API. 
+<br><br>
 
 ### Step 2 - Pre-process Ground Range Detected (GRD) data to Radiometrically Terrain Corrected (RTC) Sigma0 images.
 <br>
@@ -56,10 +57,12 @@ The _RTC_V3.py_ script will use SNAP to pre-process GRD to RTC Sigma0 geotiffs. 
        - _output_dir_: full path of the output directory for the output files. <br>
        - _pixsize_: desired output pixel size in meters. <br>
   3) Initiate the python script: **_python3 RTC_V3.py rtc_sample_inputs.txt_** <br>
+<br><br>
 
 ### Step 3 - Download a permanent water geotiff.
 <br>
 The thresholding script will accept any geotiff to identify permanant water bodies. I use the Pekel et al's (2016) global surface water data product (https://global-surface-water.appspot.com/download).
+<br><br>
 
 ### Step 4
 1) Open the _SAR_Flood_Detection_v02.py_ module with a python editor. Change the path for gdal_dir on line 23 to the location on your local system. Save and exit.
@@ -67,8 +70,9 @@ The thresholding script will accept any geotiff to identify permanant water bodi
 2) Use a text editor to open the text input file (e.g. flood_detection_sample_inputs.txt) and modify to reflect your inputs. Save and exit.
 
 3) Execute the algorithm via: _python3 SAR_Flood_Detection_v02.py flood_detection_sample_inputs.txt_.
+<br><br>
 
 
 
-# Citation
+## Citation
 Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward, High-resolution mapping of global surface water and its long-term changes. Nature 540, 418-422 (2016). (doi:10.1038/nature20584)
